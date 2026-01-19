@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+## 🕉️ JapMala
+JapMala is a responsive web application designed to help users perform mantra chanting (Jaap) or any kind of counting practice with focus and simplicity.
+Inspired by traditional mala counting, JapMala brings a digital, distraction-free experience that works seamlessly across all devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+“हर स्पर्श में मंत्र”
+A mantra in every touch.
 
-## Available Scripts
+## ✨ Features
+🏠 Home Screen
 
-In the project directory, you can run:
+Welcoming interface with the “Welcome to JapMala” message
 
-### `npm start`
+Quick access to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+➕ Add Counter
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📿 Mantra Categories
 
-### `npm test`
+➕ Add Counter Flow
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User clicks Add Counter
 
-### `npm run build`
+A form appears where the user enters:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Title (e.g., Ram-Ram, Push-Ups, Gayatri Jaap)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Target Count (e.g., 108)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+On clicking Add:
 
-### `npm run eject`
+A dedicated counter screen opens
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The counter starts from 0 / target
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔢 Counter Screen
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clean, distraction-free UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Circular progress indicator
 
-## Learn More
+User can tap anywhere on the screen to increment the count
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Real-time progress tracking
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ideal for mantra chanting, meditation, or repetition-based activities
 
-### Code Splitting
+## 📿 Mantra Categories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Users can explore predefined mantra sections, including:
 
-### Analyzing the Bundle Size
+Gayatri Mantra
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Mahamritunjaya Jaap
 
-### Making a Progressive Web App
+Hanuman Ji
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ganesh Ji
 
-### Advanced Configuration
+Shiv Ji
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Vishnu Ji
 
-### Deployment
+Clicking on a category opens a dedicated screen displaying:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The selected mantra
 
-### `npm run build` fails to minify
+Spiritual meaning / benefits (where applicable)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📱 Fully Responsive
+
+JapMala is built to run smoothly on:
+
+Mobile phones
+
+Tablets
+
+Laptops
+
+Desktop screens
+
+The UI automatically adapts to different screen sizes using Bootstrap.
+
+## 🛠️ Tech Stack
+
+React.js – Component-based UI
+
+JavaScript (ES6+)
+
+Bootstrap – Responsive design & layout
+
+HTML5 & CSS3
+
+## 🚀 Getting Started
+Prerequisites
+
+Make sure you have installed:
+
+Node.js
+
+npm or yarn
+
+Installation
+git clone https://github.com/your-username/japmala.git
+cd japmala
+npm install
+
+Run the App
+npm start
+
+
+The app will run locally at:
+
+http://localhost:3000
+
+## 🌱 Use Cases
+
+Mantra chanting (Jaap)
+
+Meditation counting
+
+Spiritual practices
+
+Habit repetition
+
+Exercise reps (push-ups, squats, etc.)
+
+## 📄 License
+
+This project is open-source and free to use for learning and personal projects.
