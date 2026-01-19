@@ -1,0 +1,136 @@
+body {
+  background-color: #FDEAE5;
+}
+.list-group-item{
+  background-color: #FDEAE5;
+  border-color: #F4B4A6;
+}
+.homeBox {
+  position: relative;
+  top: 25%;
+  color: #5A2E22;
+}
+
+.mantra {
+  margin-top: -4px;
+  font-size: 1.2em;
+}
+
+.counterBtn {
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.containerBox {
+  border: 1px solid red;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.activeContainer {
+  position: relative;
+  top: 10%;
+}
+
+.footer {
+  position: relative;
+  top: 100;
+  background-color: #FFE3DA;
+  color: #5A2E22;
+}
+
+.devName {
+  text-decoration: none;
+  color: rgb(191, 73, 14);
+  font-size: 1.3rem;
+  font-weight: 650;
+}
+
+.devName:hover {
+  color: rgb(178, 7, 124);
+}
+
+.circular-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-progress {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: conic-gradient(#FF8364 var(--progress, 0%),
+      #e9ecef 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-inner {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-value {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: brown;
+}
+
+.circular-target {
+  font-size: 1.5rem;
+  color: rgb(145, 55, 55);
+}
+
+.form-control {
+  border: 1.5px solid #F4B4A6;
+  color: #3B2F2F;
+  background-color: #FFFFFF;
+}
+.form-control:focus {
+  border-color: #FF8364;
+  box-shadow: 0 0 0 2px rgba(255,131,100,0.5);
+  color: #3B2F2F;
+}
+.form-control::placeholder{
+  color: #B59A95;
+}
+.mantraCard{
+  background-color: #FFF1E6;
+  border-color: #FF8364;
+  border-width: 2px;
+  color: brown;
+}
+@media (min-width: 798px) {
+  .form-title {
+    font-size: 2.5rem;
+  }
+
+  .form-label {
+    font-size: 1.25rem;
+  }
+
+  .form-control {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  .btn-submit {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 50px;
+    max-width: 600px;
+
+  }
+}
