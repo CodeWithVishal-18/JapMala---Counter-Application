@@ -70,7 +70,7 @@ Spiritual meaning / benefits (where applicable)
 
 JapMala is built to run smoothly on:
 
-Mobile phones
+Mobile phones (Best for User)
 
 Tablets
 
