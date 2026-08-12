@@ -11,7 +11,7 @@ export default function Vishnuji() {
     }
     useEffect(() => {
         getMantra()
-    })
+    },[])
     return (
         <>
             <GetMantras sendMantra={mantra} />
