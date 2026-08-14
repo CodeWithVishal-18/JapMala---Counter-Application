@@ -18,9 +18,9 @@ export function Parent() {
     return <>
         <h1 style={styleH1}>Counter Increment & Decrement</h1>
         <div style={styleDiv}>
-            <button onClick={decrCounterChange} style={styleDecrButton}>-</button>
+            <button onClick={decrCounterChange} style={styleDecrButton}><i className="bi bi-dash"></i></button>
             <Counter countValue={count} />
-            <button onClick={incrCounterChange} style={styleIncrButton}>+</button>
+            <button onClick={incrCounterChange} style={styleIncrButton}><i className="bi bi-plus-lg"></i></button>
         </div>
     </>
 }
