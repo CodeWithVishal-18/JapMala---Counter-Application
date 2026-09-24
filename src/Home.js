@@ -17,11 +17,9 @@ export default function Home({ onCreateClick, onViewHistory }) {
         totalChants: 0,
         totalMalas: 0,
     });
-
     useEffect(() => {
         setStreakData(getStreakData());
     }, []);
-
     const mantrasList = [
         { title: 'Gayatri Mantra', path: '/gayatrimantra', deity: 'Vedic' },
         { title: 'Mahamrityunjaya Jaap', path: '/mahamritunjayjap', deity: 'Shiv Ji' },
